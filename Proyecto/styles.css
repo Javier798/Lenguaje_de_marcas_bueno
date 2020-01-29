@@ -1,0 +1,169 @@
+#myHeader{
+color:red;
+background-color: lightblue;
+padding:7px;
+}
+.header {color: blue;
+padding: 5px}
+#borde{
+borde : 1px solid powderblue;
+}
+#parraforojo{
+color:red;
+}
+.parrafogrande{
+font-size:50px;
+}	
+p {
+    border: 1px solid red;
+    margin: 50px;
+padding: 30px;
+    text-align: justify;
+  }
+#html{
+    background-color:#FF9722;
+}
+#css{
+background-color:#86B527;
+}
+#parrafoletra{
+font-family:verdana;
+}
+.menu{
+borde : 1px solid powderblue;
+color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#parrafoalineado{
+text-align:center;
+}
+button{
+background-color:red;
+padding2:25px;
+}
+a:link {
+  color: blue;
+  background-color: red
+  text-decoration: none;
+}
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.sinborde{
+border: none;
+margin: 0;
+padding: 0;
+}
+.gif{
+width: 200px;
+height: 200px;
+}
+.imgflotante{
+float:right;
+whidth: 50px;
+height: 50px;
+}
+.fuente{
+font-family: 'Open Sans', sans-serif;
+}
+table, th, td{
+color: white;
+border: 1px solid black;
+border-collapse: collapse;
+padding: 10px;
+text-align: center;
+}
+#recreo{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 0;
+text-align: center;
+}
+table#horario tr:nth-child(even){
+background-color:green;
+}
+table#horario tr:nth-child(odd){
+background-color: red;
+}
+table#horario th{
+background-color: black;
+}
+.listahorizontal{
+      list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+#perroverde{
+    color:green;
+}
+#divcolorfondo{
+    background-color: black;
+    color: white;
+}
+#imagenFlotadaIzquierda{
+    float: left;
+    width: 100px;
+    height: 45px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#imagenFlotadaDerecha{
+    float: right;
+    width: 100px;
+    height: 45px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#iframeprueba{
+    margin-left: 200px;
+    width: 80%;
+    height: 250px;
+}
+.enlaceMenu{
+    width: 250px;
+    height: auto;
+    background-color: coral;
+    background-color: coral;
+    
+}
+#menuPrincipal{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+#123{
+    float: left;
+    display: block;
+
+        
+}
+#456{
+    display: block;
+}
+#menu01{
+    position: fixed;
+    left: 0px;
+}
+#menu02{
+    position: fixed;
+    left: 980px;
+}
+#menu03{
+    position: fixed;
+    right: 0px;
+}

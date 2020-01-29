@@ -1,0 +1,70 @@
+#tituloInicial{
+    background-color: #33354d;
+    color: white;
+    font-size: 60px;
+    height: 75px;
+    margin: 0;
+    margin-bottom: 53px;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    
+}
+html{
+    background-color: #e0e1eb;
+}
+#tituloEscritorio{
+    background-color: #33354d;
+    color: white;
+    font-size: 60px;
+    height: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.titulosPequeños{
+    background-color: #29a333;
+    color: white;
+    font-size: 40px;
+    height: 45px;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    
+}
+#divTocho{
+    padding: 50px;
+}
+.texto{
+    font-family: arial;
+    text-align: justify;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    
+    font-size: 40px;
+    padding: 15px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 40px;
+}
+body{
+    margin: 0;
+}
+#tituloInternet{
+        background-color: #33354d;
+    color: white;
+    font-size: 60px;
+    height: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 53px;
+    margin-top: 53px;
+}
