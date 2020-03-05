@@ -1,255 +1,320 @@
 <!DOCTYPE html>
 <head>
+  <script src="JavaScript.js"></script>
   <title>CSS</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body id="css">
-  <div>
-  <h1 class="parrafogrande"> CSS </h1>
-  <hr></hr>
-  <b><u><h4>Menú</h4></u></b>
+<div id="enlaces">
+    <a id="menu01" href="./index.html"><img src="./img/casa.png" alt=""></a>
+    <a id="menu02" href="./CSS.html"><img src="./img/css.png" alt=""></a>
+    <a id="menu03" href="./HTML.html"><img class="icono" src="./img/1.png" alt =""></a>
+</div>
+<div id="divtochisimo">
+  <div id="titulocss">
+  <h1> CSS </h1>
   <hr>
-  <ul>
-<pre>
-<li><a class ="menu" href="#estilos">Estilos</a></li>
-<li><a href="#estilos1">Formas de aplicarlos</a></li>
-<li><a href="#estilos2">Estilos en linea</a></li>
-<li><a href="#estilos3">Estilos internos</a></li>
-<li><a href="#estilos4">Estilos externos</a></li>
-<li><a href="#tipos">Tipos</a></li>
-<li><a href="#fuente">Fuente</a></li>
-<li><a href="#borde">Borde</a></li>
-<li><a href="#relleno">Relleno/paddnig</a></li>
-<li><a href="#margen">Margen</a></li>
-<li><a href="#colores-letra">Colores y tipos de letra</a></li>
-<li><a href="#color-fondo">Color de fondo</a></li>
-<li><a href="#alinear">Alinear texto</a></li>
-<li><a href="#linkexternos">Links a otra pagina.</a></li>
-<li><a href="#linksinternos">Links a otra parte de la misma pagina</a></li>
-<li><a href="#opcioneslink">Opciones de link</a></li>
-<li><a href="#titulolink">Opciones de link</a></li>
-<li><a href="#imagenes">Imagenes</a></li>
-<li><a href="#tablas">Tablas</a></li>
-<li><a href="#listas">Listas</a></li>
-<li><a href="#bloques">Bloques(div)</a></li>
-<li><a href="#float">Flotar objetos</a></li>
-<li><a href="#iframes">Insertar una web dentro de otra.</a></li>
-</pre>
-</ul>
-<hr>
-  <h3 id="estilos">Estilos</h3>
-
-  <h3 id="estilos1"><u>FORMAS DE APLICAR LOS ESTILOS</u></h3>
-
-  <b><u><h4 id ="estilos2">En linea</h4></u></b>
-  <p>Esta forma consiste en aplicar los estilos de CSS en los diferentes elementos del html, por ejemplo: &lt;h1 style="font-size:50px;"&gt;Soy una cabecera &lt;/h1&gt;  </p>
-  <b><u><h4 id="estilos3">Interno</h4></u></b>
-  <p>De esta forma escribiremos los estilos en el head para hacer esto es muy sencillo, solo tenemos que poner la plabra "<b>style</b>" entre los simbolos usados para el tag y dentro de aqui escribir el como los queremos, obviamente hay que cerrar el tag "style".
-  <p>La sintaxis es: poner el tag que queramos, y entre llaves poner los estilos, por ejemplo: <b>p{ background-color:red;}</b>, de esta forma todos los parrafos tendran el color rojo de fondo, con los demas tags es igual. Para hacer esto con uno o varios tags especificos hay que definir unas clases o unos id. Los id no se pueden repetir.</p>
-  <p>Lo primero que debemos hacer para crear un id, es poner en el head <b>#nombre_id</b> y entre llaves definir su estilo, despues, tenemos que poner por ejemplo: <b>h1 id= "myHeader"</b> entre los simbolosde tag. Y las clases se crean de la misma manera que los id pero usando un . la diferencia es que los id son unicos y las clases se pueden repetir.</p>
-  <p>Para aplicar una clase deberemos poner <b>h1 class= "myClase"</b> entre los simbolos de tag. </p>
-
-
-<b><u><h4 id="estilos4">Externo</h4></u></b>
-<p>Esta forma es muy similar a la anterior, solo que lo que habra que hacer es añadir el archivo desde fuera, esta forma es muy util ya que puede servir para usarlo en otros html. Para insertar el archivo devemos usar el siguiente codigo link rel="stylesheet" href="styles.css"</p></br>
-
-<b><u><h3 id="tipos">Tipos de estilos</h3></u></b>
-<b><u><h4 id="fuente">Fuentes</h4></u></b>
-<p>Las fuente sirven para cambiar el formato de la letra, su sintaxis es: style="font-family: verdana;" entre simbolos de tag. si queremos hacer esto en el style del head deberaimos poner en el tag que queramos, las siguientes palabras entre llaves: font-family: verdana;</p>
-<b><u><h4 id="borde">Borde</h4></u></b>
-<p>Los bordes son unas lineas que hacen una especie de marco al rededor de donde lo pongamos. Para ponerlo en un elemento debemos poner esta sintaxis: style="border:2px solid Tomato;" y para ponerlo en el tag style debemos poner entre llaves border: 1px solid powderblue;</p>
-<b><u><h4 id="relleno">Relleno</h4></u></b>
-<p>El releno se hace con el estilo padding, esto sirve para agrandar x pixeles hacia todos los lados un elemento. su sintaxis es padding: 30px; en el tag style.</p>
-  <b><u><h4 id="margen">Margen</h4></u></b>
-  <p>El margen sirve para empezar las frases mas adelante, su sintaxis en el tag style es: margin: 50px; </p>
-  <b><u><h4 id="colores-letra">Colores y tipos de letra</h4></u></b>
-  <p>Se pueden usar diferentes tipos de colores, formas y tamaños de letra, para ello, debemos poner despues de la p style="color:red" y cerrar el tag. Para cambiar los tamaños deberemos poner una sintaxis similar a la anterior pero cambiando color por font-size:tamaño en pixeles(px)</p>
-  <p id="parraforojo">Soy rojo</p>
-  <p class="parrafogrande">Soy grande</p>
-<b><u><h4 id="color-fondo">Color de fondo</h4></u></b>
-<p>Tambien podemos cambiar el color de fondo de la pagina web, lo unico que tendremos que hacer es usar la sintaxis anteiror pero poniendo body{background-color:red} en la hoja de estilos.</p>
-<b><u><h4 id="alinear">Alinear texto</h4></u></b>
-<p id ="parrafoalineado">Por ultimo tambien podremos centrar o mover el texto a ciertas partes de la pagina. Al igual que los estilos anteriores, la sintaxis es similar: sustituir la primera parte por text-align y la segunda por la zona(center)</p>
-<b><u><h4 id ="linkexternos">Links externos</h4></u></b>
-<p>Para los links hay diferentes tipos de estilos, desde antes de haber sido clickado hasta despues o cuando lo pasas por encima. a:link es cuando aun no has pulsado sobre el enlace, a:visited es cuando ya has entrado al link, a:hover es cuando el puntero esta encima del link y a:active se usa cuando se esta pulsando el link.</p>
-<p>En cada una de las opciones anteriormene dichas, debemos ponerle las caracteristicas que queramos, por ejemplo, el color, la transparencia, color de fondo, etc.</p>
-<a href="http://www.takeuselesswebsite.com/snake" target ="_blank">Culebrilla</a>
-<b><u><h4 id ="linksinternos">Links internos</h4></u></b>
-<p>Tambien se pueden hacer links internos dentro de la pagina, como hace wikipedia por ejemplo, dandole click a una palabra nos lleve a otra parte de la pagina. Para ello tendremos que usar a href ="un id de nuestra pagina" y una frase.</p>
-<a href="#estilos">Saltar al inicio.</a>
-<b><u><h4 id ="opcioneslink">Opciones de link.</h4></u></b>
-<p>Podemos hacer que que al seleccionar un link se nos abra en la pestaña que estamos usando, en una nueva.</p>
-<p>Para ello, se usaran los siguientes atributos:</p>
-<ul>
-  <li>_blank</li>
-  <p class ="sinborde">Esta opcion lo que hace es que al hacer click en el link nos abra la pagina en otra pestaña.</p>
-  <li>_self</li>
-  <p class ="sinborde">Esta otra opcion es la que esta por defecto, abre la pagina en la pestaña que ya esta abierta.</p>
-  <li>_parent</li>
-  <p class ="sinborde">Abre el documento vinculado en el marco primario.</p>
-  <li>_top</li>
-  <p class ="sinborde">Abre el documento vinculado en el cuerpo completo de la ventana.</p>
-</ul>
-<b><u><h4 id ="titulolink">Titulo de link y font awsome.</h4></u></b>
-<p>Un titulo en un linkse ve al poner el puntero encima del link, esto se consigue usando el tag tittle="Titulo que queramos" y cerrando los simbolos de tag escribimos lo que se verá.</p>
-<p>Para el font awsome, solo tendremos que añadir la ruta de la hoja de estilos css y despues buscar en su pagina web el icono que deseemos.</p>
-<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Tutorial de HTML</a>
-<i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i>
-
-<b><u><h4 id ="imagenes">Imagenes</h4></u></b>
-<p>Para insertar una imagen en un documento html es muy sencillo, solo hay que usar el tag img seguido de src y aqui entre comillas poner el link</p>
-<b><u><h3>Tags</h3></u></b>
-<p class ="sinborde">En el caso de las imagenes tendemos varias opciones en los tags, tanto de css como de html.  </p>
-<p class ="sinborde">Las mas comunes son:</p>
-<pre>
-  alt: Aqui debe ponerse una descripcion de la imagen que se verá en caso de que esta no se muestre
-  src: Este tag hace referencia a la ruta en la que se encuentra la imagen.
-  style: Este tag pertenece a css y aqui se pondra la altura "height" y la anchura "width" en pixeles separados por ";".
-</pre>
-<b><u><h3>Gifts</h3></u></b>
-<p>Tambien se pueden insertar gifts usando el tag img, la sintaxis es exactamente igual. Los tamaños, se pueden regular igual que en las imagenes.</p>
-<img class ="gif" src="img\200.webp" alt="Payaso xungo">
-<p>Podemos insertar imagenes con link, es decir que con darle cilck encima nos lleve a la pagina. para ello usaremos el tag a para poner el link y dentro de la a insertaremos la imagen.</p>
-<a href="https://www.mediamarkt.es/es/product/_patinete-el%C3%A9ctrico-xiaomi-mi-electric-scooter-m365-25-km-h-autonom%C3%ADa-30-km-plegable-negro-1403137.html">
-<img class="gif" src="img\patinete.jpg" alt="patiente xiaomi">
-</a>
-<b><u><h3>Imagenes flotantes</h3></u></b>
-<p>Podemos hacer que las imagenes estem em cierta zona de la pagina usando el atributo float en el tag de style. Si lo queremos a la aderecha se pondra right y a la izquierda left. Para hacer esto usaremos un tag de parrafor y dentro del mismo pondremos el tag img para la imagen.
-<img class="imgflotante" src="img\pez_globo.png" alt="pez globo"></p>
-<b><u><h3>Mapas de imagenes</h3></u></b>
-<p>Los mapas de imagenes nos permiten separa una imagen por zonas, es decir usamos coordenadas para dividir las partes importantes de la imagen y ponerle links u otras cosas. el tag que hace esto es usemap="#nombre" y para configurar las coordenadas, usaremos el tag map ="nombre" y una vez aqui usando el tag area dentro de map, con los atributos "shape" para marcar las formas, "coords" para marcar las coordenadas, "alt" para la informacion y "href" para el link.</p>
-<img src="img\workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-<b><u><h3 id="fonts">Google Fonts</h3></u></b>
-<p class="fuente">Podemos insertar diferentes tipos de fuentes desde google. Para ello lo unico que debemos hacer es copiar la ruta que nos pone al seleccionar la fuente y seguir las instrucciones. Para concluir solo tendremos que añadir en la hoja de estilos una clase con esta fuente y aplicarla donde deseemos.</p>
-<map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.amazon.es/MSI-GP75-Leopard-9SF-1037XES-Coffeelake/dp/B07X6S1CW3/ref=asc_df_B07X6S1CW3/?tag=googshopes-21&linkCode=df0&hvadid=301141264209&hvpos=1o1&hvnetw=g&hvrand=12757507378371579896&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005485&hvtargid=pla-825607138281&psc=1">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.elcorteingles.es/electronica/A27722126-iphone-xr-128gb-blanco-movil-libre/?gclid=EAIaIQobChMIutWsz6PW5QIVVoXVCh2h0QduEAQYASABEgLf7fD_BwE&gclsrc=aw.ds">
-  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.baque.com/es/blog/que-es-caffe-latte/">
-</map>
-<div style="background-image: url ('img\lol.jpg');">
-You can specify background images<br>
-for any visible HTML element.<br>
-In this example, the background image<br>
-is specified for a div element.<br>
-By default, the background-image<br>
-will repeat itself in the direction(s)<br>
-where it is smaller than the element<br>
-where it is specified. (Try resizing the<br>
-browser window to see how the<br>
-background image behaves.
 </div>
-<b><u><h3 id="talas">Tablas</h3></u></b>
-<table id="horario">
-  <tr>
-    <th>Horario</th>
-    <th>Lunes</th>
-    <th>Martes</th>
-    <th>Miercoles</th>
-    <th>Jueves</th>
-    <th>Viernes</th>
-  </tr>
-  <tr>
-    <td rowspan="2">16:15 18:00</td>
-    <td rowspan="2">BBDD</td>
-    <td rowspan="2">Programación</td>
-    <td rowspan="2">Sis Inf</td>
-    <td rowspan="2">Programación</td>
-    <td rowspan="2">Programación</td>
-  </tr>
-  <tr>
 
-  </tr>
-  <tr>
-    <td>18:05-18:55</td>
-    <td >Programación</td>
-    <td >BBDD</td>
-    <td >Lenguaje de marcas</td>
-    <td >Sis Inf</td>
-    <td >FOL</td>
-  </tr>
-  <tr>
-    <td>18:55-19:20</td>
-    <td id="recreo" colspan="5">Recreo</td>
-  </tr>
-  <td>19:20-20:10</td>
-  <td >Programación</td>
-  <td >BBDD</td>
-  <td rowspan="2">BBDD</td>
-  <td >Sis Inf</td>
-  <td >FOL</td>
-</tr>
-<tr>
-  <td>20:15-21:05</td>
-  <td >FOL</td>
-  <td >Sis Inf</td>
-  <td rowspan="2">Ent de des</td>
-  <td rowspan="2">Lenguaje de marcas</td>
-</tr>
-<td>20:15-21:05</td>
-<td >Ingles Tecnico</td>
-<td >Ingles Tecnico</td>
-<td>Ent De Des</td>
-</tr>
-</table>
+<a href="#" onclick="myFunction()"> Menu</a>
+  <hr>
+  <div id="listapocha">
+  <ul >
 
-<b><u><h3 id="listas">Listas</h3></u></b>
-<p>Hay varios tipos de listas. Listas ordenadas, las cuales se usan poniendo "ol" entre los simbolos de tag, listas desordenadas usando "ul" tambien entre simbolos de tag. Eso defniria la lista, para defeinir los campos de cada una se usa "li" entre simbolos de tag y dentro se puede poner lo que se quiera.</p>
-<h4>Lista ordenada.</h4>
-<ol>
-  <li>Riven</li>
-  <li>Yasuo</li>
-  <li>Alphelios</li>
-</ol>
-<h4>Lista desordenada.</h4>
-<ul>
-  <li>Malphite</li>
-  <li>Maestro yi</li>
-  <li>Jhin</li>
-</ul>
-<p>Tambien hay listas Para describir cosas, estas se usan con las letras "dl" entre simbolos y "dt" para el titulo y "dd" para la descripcion.</p>
-<dl>
-  <dt>Riven</dt>
-  <dd>- El mejor campeon del mundo</dd>
-  <dt>Yasuo</dt>
-  <dd>- Noob Champ af</dd>
-  <dt>Fiora</dt>
-  <dd>- No tan buena como Riven pero no esta mal.</dd>
-</dl>
-<p>Tambien se pueden hacer listas dentro de listas. Para ello habra que poner "ul" para la primera lista, "li" para los campos y dentro de los "li" se pueden poner mas "ul"</p>
-<ul>
-  <li>Lista 1</li>
-  <li>Inicio de la lista
-      <ul>
-        <li>Lista dentro de una lista</li>
-        <li>Lista dentro de lista tambien :)</li>
+      <pre>
+      <li><a class ="menu" href="#estilos">Estilos</a></li>
+      <li><a href="#estilos1">Formas de aplicarlos</a></li>
+      <li><a href="#estilos2">Estilos en linea</a></li>
+      <li><a href="#estilos3">Estilos internos</a></li>
+      <li><a href="#estilos4">Estilos externos</a></li>
+      <li><a href="#tipos">Tipos</a></li>
+      <li><a href="#fuente">Fuente</a></li>
+      <li><a href="#borde">Borde</a></li>
+      <li><a href="#relleno">Relleno/paddnig</a></li>
+      <li><a href="#margen">Margen</a></li>
+      <li><a href="#colores-letra">Colores y tipos de letra</a></li>
+      <li><a href="#color-fondo">Color de fondo</a></li>
+      <li><a href="#alinear">Alinear texto</a></li>
+      <li><a href="#linkexternos">Links a otra pagina.</a></li>
+      <li><a href="#linksinternos">Links a otra parte de la misma pagina</a></li>
+      <li><a href="#opcioneslink">Opciones de link</a></li>
+      <li><a href="#titulolink">Opciones de link</a></li>
+      <li><a href="#imagenes">Imagenes</a></li>
+      <li><a href="#tablas">Tablas</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#bloques">Bloques(div)</a></li>
+      <li><a href="#float">Flotar objetos</a></li>
+      <li><a href="#iframes">Insertar una web dentro de otra.</a></li>
+      </pre>
       </ul>
-  </li>
-  <li>Hola buenos dias</li>
-</ul>
-
-<b><u><h3 id="bloques">Bloques(div)</h3></u></b>
-<p>Un elemento de bloque siempre comienza en una nueva linea y ocupa el maximo espacio posible, ademas, en el cabe cualquier cosa, todo lo que le queramos meter. El elemento div es un elemento de bloque, se le pueden aplicar estilos y esotos se veran refelejados en todo lo que haya dentro de el. Para usarlo simplemente hay que abrir y cerrar el elemnto div como cualquiero otro y si queremos darle algun estilo en la hoja de estilos tendremos que escribir: div.nombre_deseado tag_al_que_se_lo_queremos_aplicar.</p>
-
-<h4>Elemnto span en el div</h4>
-<div>
-<p>Sirve para aislar palabras de un parrafo. Por ejemplo: si queremos escrinbir perro verde y queremos que verde este en verde, pues meteremos verde en un span y le daremos unos estilos para que sea verde.  Perro <span id="perroverde">verde</span></p>
 </div>
+<hr>
+  <div class="titulos">
+    <h2 id="estilos">Estilos</h2>
+  </div>
+  <div>
+    <h3 id="estilos1">FORMAS DE APLICAR LOS ESTILOS</h3>
 
-<h4>Colores de fondo</h4>
-<div id="divcolorfondo">
-  <p>Con el div tambien podemos asignarle un color de fondo especifico a un unico div. Para ello se le da el stilo de color de fondo y ya. En este caso se ve asi, con los bordes rojos porque le tengo asignado para que los parrafos sean asi, pero tambien se le podria asignar solo al elemento dentro del div para qe se viera de otra forma.</p>
-</div>
-<b><u><h3 id="float">Flotar objetos</h3></u></b>
-<p>El tag float nos permite flotar (desplazar) objetos. Por ejemplo si queremos que aparezca una imagen y a la derecha un texto usaremos float: left; en la imagen. Algo recomendable es darle un margen a la imagen para que quede mejor</p>
-<p><img id="imagenFlotadaIzquierda" src="img\google.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.</p>
-<p>Tambien se puede hacer lo mismo pero a la derecha</p>
-<p><img id="imagenFlotadaDerecha" src="img\google.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.</p>
-<b><u><h3 id="iframes">Insertar Webs dentro de otras(iframe)</h3></u></b>
-<p>Los iframes nos permiten introducir una pagina web dentro de otra. Su uso es sencillo, es similar  a las imagenes, tienen un src, una anchura y un altra las cuales se pueden configurar con una clase o un id. Para usarlo solo tenemos que poner la URL en la parte src.</p>
-<p>Esta es la pagina web de HTML.</p>
-<h5>Pagina web de HTML.</h5>
-<iframe id="iframeprueba" src="HTML.html"></iframe>
+   <h4 id ="estilos2">En linea</h4>
+    <p>Esta forma consiste en aplicar los estilos de CSS en los diferentes elementos del html, por ejemplo: &lt;h1 style="font-size:50px;"&gt;Soy una cabecera &lt;/h1&gt;  </p>
+    <b><u><h4 id="estilos3">Interno</h4></u></b>
+    <p>De esta forma escribiremos los estilos en el head para hacer esto es muy sencillo, solo tenemos que poner la plabra "<b>style</b>" entre los simbolos usados para el tag y dentro de aqui escribir el como los queremos, obviamente hay que cerrar el tag "style".
+    <p>La sintaxis es: poner el tag que queramos, y entre llaves poner los estilos, por ejemplo: <b>p{ background-color:red;}</b>, de esta forma todos los parrafos tendran el color rojo de fondo, con los demas tags es igual. Para hacer esto con uno o varios tags especificos hay que definir unas clases o unos id. Los id no se pueden repetir.</p>
+    <p>Lo primero que debemos hacer para crear un id, es poner en el head <b>#nombre_id</b> y entre llaves definir su estilo, despues, tenemos que poner por ejemplo: <b>h1 id= "myHeader"</b> entre los simbolosde tag. Y las clases se crean de la misma manera que los id pero usando un . la diferencia es que los id son unicos y las clases se pueden repetir.</p>
+    <p>Para aplicar una clase deberemos poner <b>h1 class= "myClase"</b> entre los simbolos de tag. </p>
+  </div>
+  <div>
+    <h4 id="estilos4">Externo</h4>
+    <p>Esta forma es muy similar a la anterior, solo que lo que habra que hacer es añadir el archivo desde fuera, esta forma es muy util ya que puede servir para usarlo en otros html. Para insertar el archivo devemos usar el siguiente codigo link rel="stylesheet" href="styles.css"</p></br>
+  </div>
+
+      <div>
+        <h3 id="tipos">Tipos de estilos</h3>
+      </div>
+      <div>
+        <h4 id="fuente">Fuentes</h4>
+          <p>Las fuente sirven para cambiar el formato de la letra, su sintaxis es: style="font-family: verdana;" entre simbolos de tag. si queremos hacer esto en el style del head deberaimos poner en el tag que queramos, las siguientes palabras entre llaves: font-family: verdana;</p>
+      </div>
+      <div>
+        <h4 id="borde">Borde</h4>
+          <p>Los bordes son unas lineas que hacen una especie de marco al rededor de donde lo pongamos. Para ponerlo en un elemento debemos poner esta sintaxis: style="border:2px solid Tomato;" y para ponerlo en el tag style debemos poner entre llaves border: 1px solid powderblue;</p>
+      </div>
+      <div>
+        <h4 id="relleno">Relleno</h4>
+          <p>El releno se hace con el estilo padding, esto sirve para agrandar x pixeles hacia todos los lados un elemento. su sintaxis es padding: 30px; en el tag style.</p>
+      </div>
+      <div>
+        <h4 id="margen">Margen</h4>
+          <p>El margen sirve para empezar las frases mas adelante, su sintaxis en el tag style es: margin: 50px; </p>
+      </div>
+      <div>
+          <h4 id="colores-letra">Colores y tipos de letra</h4>
+            <p>Se pueden usar diferentes tipos de colores, formas y tamaños de letra, para ello, debemos poner despues de la p style="color:red" y cerrar el tag. Para cambiar los tamaños deberemos poner una sintaxis similar a la anterior pero cambiando color por font-size:tamaño en pixeles(px)</p>
+            <p id="parraforojo">Soy rojo</p>
+            <p class="parrafogrande">Soy grande</p>
+      </div>
+      <div>
+        <h4 id="color-fondo">Color de fondo</h4>
+          <p>Tambien podemos cambiar el color de fondo de la pagina web, lo unico que tendremos que hacer es usar la sintaxis anteiror pero poniendo body{background-color:red} en la hoja de estilos.</p>
+      </div>
+      <div>
+      <h4 id="alinear">Alinear texto</h4>
+          <p id ="parrafoalineado">Por ultimo tambien podremos centrar o mover el texto a ciertas partes de la pagina. Al igual que los estilos anteriores, la sintaxis es similar: sustituir la primera parte por text-align y la segunda por la zona(center)</p>
+      </div>
+      <div>
+        <h4 id ="linkexternos">Links externos</h4>
+          <p>Para los links hay diferentes tipos de estilos, desde antes de haber sido clickado hasta despues o cuando lo pasas por encima. a:link es cuando aun no has pulsado sobre el enlace, a:visited es cuando ya has entrado al link, a:hover es cuando el puntero esta encima del link y a:active se usa cuando se esta pulsando el link.</p>
+          <p>En cada una de las opciones anteriormene dichas, debemos ponerle las caracteristicas que queramos, por ejemplo, el color, la transparencia, color de fondo, etc.</p>
+          <a href="http://www.takeuselesswebsite.com/snake" target ="_blank">Culebrilla</a>
+      </div>
+      <div>
+        <h4 id ="linksinternos">Links internos</h4>
+          <p>Tambien se pueden hacer links internos dentro de la pagina, como hace wikipedia por ejemplo, dandole click a una palabra nos lleve a otra parte de la pagina. Para ello tendremos que usar a href ="un id de nuestra pagina" y una frase.</p>
+          <a href="#estilos">Saltar al inicio.</a>
+      </div>
+      <div>
+        <h4 id ="opcioneslink">Opciones de link.</h4>
+          <p>Podemos hacer que que al seleccionar un link se nos abra en la pestaña que estamos usando, en una nueva.</p>
+          <p>Para ello, se usaran los siguientes atributos:</p>
+
+      <ul>
+        <li>_blank</li>
+        <p class ="sinborde">Esta opcion lo que hace es que al hacer click en el link nos abra la pagina en otra pestaña.</p>
+        <li>_self</li>
+        <p class ="sinborde">Esta otra opcion es la que esta por defecto, abre la pagina en la pestaña que ya esta abierta.</p>
+        <li>_parent</li>
+        <p class ="sinborde">Abre el documento vinculado en el marco primario.</p>
+        <li>_top</li>
+        <p class ="sinborde">Abre el documento vinculado en el cuerpo completo de la ventana.</p>
+      </ul>
+      </div>
+      <div>
+        <h4 id ="titulolink">Titulo de link y font awsome.</h4>
+          <p>Un titulo en un linkse ve al poner el puntero encima del link, esto se consigue usando el tag tittle="Titulo que queramos" y cerrando los simbolos de tag escribimos lo que se verá.</p>
+          <p>Para el font awsome, solo tendremos que añadir la ruta de la hoja de estilos css y despues buscar en su pagina web el icono que deseemos.</p>
+          <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Tutorial de HTML</a>
+          <i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i>
+      </div>
+      <div>
+      <h4 id ="imagenes">Imagenes</h4>
+          <p>Para insertar una imagen en un documento html es muy sencillo, solo hay que usar el tag img seguido de src y aqui entre comillas poner el link</p>
+      </div>
+      <div>
+        <h3>Tags</h3>
+          <p class ="sinborde">En el caso de las imagenes tendemos varias opciones en los tags, tanto de css como de html.  </p>
+          <p class ="sinborde">Las mas comunes son:</p>
+
+          <pre>
+            alt: Aqui debe ponerse una descripcion de la imagen que se verá en caso de que esta no se muestre
+            src: Este tag hace referencia a la ruta en la que se encuentra la imagen.
+            style: Este tag pertenece a css y aqui se pondra la altura "height" y la anchura "width" en pixeles separados por ";".
+          </pre>
+      </div>
+      <div>
+        <h3>Gifts</h3>
+          <p>Tambien se pueden insertar gifts usando el tag img, la sintaxis es exactamente igual. Los tamaños, se pueden regular igual que en las imagenes.</p>
+          <img class ="gif" src="img\200.webp" alt="Payaso xungo">
+          <p>Podemos insertar imagenes con link, es decir que con darle cilck encima nos lleve a la pagina. para ello usaremos el tag a para poner el link y dentro de la a insertaremos la imagen.</p>
+          <a href="https://www.mediamarkt.es/es/product/_patinete-el%C3%A9ctrico-xiaomi-mi-electric-scooter-m365-25-km-h-autonom%C3%ADa-30-km-plegable-negro-1403137.html">
+            <img class="gif" src="img\patinete.jpg" alt="patiente xiaomi">
+          </a>
+      </div>
+      <div>
+        <h3>Imagenes flotantes</h3>
+        <p>Podemos hacer que las imagenes estem em cierta zona de la pagina usando el atributo float en el tag de style. Si lo queremos a la aderecha se pondra right y a la izquierda left. Para hacer esto usaremos un tag de parrafor y dentro del mismo pondremos el tag img para la imagen.
+        <img class="imgflotante" src="img\pez_globo.png" alt="pez globo"></p>
+      </div>
+      <div>
+        <h3>Mapas de imagenes</h3>
+          <p>Los mapas de imagenes nos permiten separa una imagen por zonas, es decir usamos coordenadas para dividir las partes importantes de la imagen y ponerle links u otras cosas. el tag que hace esto es usemap="#nombre" y para configurar las coordenadas, usaremos el tag map ="nombre" y una vez aqui usando el tag area dentro de map, con los atributos "shape" para marcar las formas, "coords" para marcar las coordenadas, "alt" para la informacion y "href" para el link.</p>
+          <img src="img\workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+      </div>
+      <div>
+        <h3 id="fonts">Google Fonts</h3>
+          <p class="fuente">Podemos insertar diferentes tipos de fuentes desde google. Para ello lo unico que debemos hacer es copiar la ruta que nos pone al seleccionar la fuente y seguir las instrucciones. Para concluir solo tendremos que añadir en la hoja de estilos una clase con esta fuente y aplicarla donde deseemos.</p>
+
+          <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.amazon.es/MSI-GP75-Leopard-9SF-1037XES-Coffeelake/dp/B07X6S1CW3/ref=asc_df_B07X6S1CW3/?tag=googshopes-21&linkCode=df0&hvadid=301141264209&hvpos=1o1&hvnetw=g&hvrand=12757507378371579896&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005485&hvtargid=pla-825607138281&psc=1">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.elcorteingles.es/electronica/A27722126-iphone-xr-128gb-blanco-movil-libre/?gclid=EAIaIQobChMIutWsz6PW5QIVVoXVCh2h0QduEAQYASABEgLf7fD_BwE&gclsrc=aw.ds">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.baque.com/es/blog/que-es-caffe-latte/">
+          </map>
+          <div style="background-image: url ('img\lol.jpg');">
+          You can specify background images<br>
+          for any visible HTML element.<br>
+          In this example, the background image<br>
+          is specified for a div element.<br>
+          By default, the background-image<br>
+          will repeat itself in the direction(s)<br>
+          where it is smaller than the element<br>
+          where it is specified. (Try resizing the<br>
+          browser window to see how the<br>
+          background image behaves.
+          </div>
+      </div>
+      <div>
+        <h3 id="tablas">Tablas</h3>
+          <table id="horario">
+            <tr>
+              <th>Horario</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miercoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+            </tr>
+            <tr>
+              <td rowspan="2">16:15 18:00</td>
+              <td rowspan="2">BBDD</td>
+              <td rowspan="2">Programación</td>
+              <td rowspan="2">Sis Inf</td>
+              <td rowspan="2">Programación</td>
+              <td rowspan="2">Programación</td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+              <td>18:05-18:55</td>
+              <td >Programación</td>
+              <td >BBDD</td>
+              <td >Lenguaje de marcas</td>
+              <td >Sis Inf</td>
+              <td >FOL</td>
+            </tr>
+            <tr>
+              <td>18:55-19:20</td>
+              <td id="recreo" colspan="5">Recreo</td>
+            </tr>
+            <td>19:20-20:10</td>
+            <td >Programación</td>
+            <td >BBDD</td>
+            <td rowspan="2">BBDD</td>
+            <td >Sis Inf</td>
+            <td >FOL</td>
+          </tr>
+          <tr>
+            <td>20:15-21:05</td>
+            <td >FOL</td>
+            <td >Sis Inf</td>
+            <td rowspan="2">Ent de des</td>
+            <td rowspan="2">Lenguaje de marcas</td>
+          </tr>
+          <td>20:15-21:05</td>
+          <td >Ingles Tecnico</td>
+          <td >Ingles Tecnico</td>
+          <td>Ent De Des</td>
+          </tr>
+          </table>
+      </div>
+      <div>
+        <h3 id="listas">Listas</h3>
+          <p>Hay varios tipos de listas. Listas ordenadas, las cuales se usan poniendo "ol" entre los simbolos de tag, listas desordenadas usando "ul" tambien entre simbolos de tag. Eso defniria la lista, para defeinir los campos de cada una se usa "li" entre simbolos de tag y dentro se puede poner lo que se quiera.</p>
+
+            <h4>Lista ordenada.</h4>
+            <ol>
+              <li>Riven</li>
+              <li>Yasuo</li>
+              <li>Alphelios</li>
+            </ol>
+            <h4>Lista desordenada.</h4>
+            <ul>
+              <li>Malphite</li>
+              <li>Maestro yi</li>
+              <li>Jhin</li>
+            </ul>
+            <p>Tambien hay listas Para describir cosas, estas se usan con las letras "dl" entre simbolos y "dt" para el titulo y "dd" para la descripcion.</p>
+            <dl>
+              <dt>Riven</dt>
+              <dd>- El mejor campeon del mundo</dd>
+              <dt>Yasuo</dt>
+              <dd>- Noob Champ af</dd>
+              <dt>Fiora</dt>
+              <dd>- No tan buena como Riven pero no esta mal.</dd>
+            </dl>
+            <p>Tambien se pueden hacer listas dentro de listas. Para ello habra que poner "ul" para la primera lista, "li" para los campos y dentro de los "li" se pueden poner mas "ul"</p>
+            <ul>
+              <li>Lista 1</li>
+              <li>Inicio de la lista
+                  <ul>
+                    <li>Lista dentro de una lista</li>
+                    <li>Lista dentro de lista tambien :)</li>
+                  </ul>
+              </li>
+              <li>Hola buenos dias</li>
+            </ul>
+    </div>
+    <div>
+      <h3 id="bloques">Bloques(div)</h3>
+        <p>Un elemento de bloque siempre comienza en una nueva linea y ocupa el maximo espacio posible, ademas, en el cabe cualquier cosa, todo lo que le queramos meter. El elemento div es un elemento de bloque, se le pueden aplicar estilos y esotos se veran refelejados en todo lo que haya dentro de el. Para usarlo simplemente hay que abrir y cerrar el elemnto div como cualquiero otro y si queremos darle algun estilo en la hoja de estilos tendremos que escribir: div.nombre_deseado tag_al_que_se_lo_queremos_aplicar.</p>
+
+      <h4>Elemnto span en el div</h4>
+        <div>
+          <p>Sirve para aislar palabras de un parrafo. Por ejemplo: si queremos escrinbir perro verde y queremos que verde este en verde, pues meteremos verde en un span y le daremos unos estilos para que sea verde.  Perro <span id="perroverde">verde</span></p>
+        </div>
+    </div>
+    <div>
+      <h4>Colores de fondo</h4>
+      <div id="divcolorfondo">
+        <p>Con el div tambien podemos asignarle un color de fondo especifico a un unico div. Para ello se le da el stilo de color de fondo y ya. En este caso se ve asi, con los bordes rojos porque le tengo asignado para que los parrafos sean asi, pero tambien se le podria asignar solo al elemento dentro del div para qe se viera de otra forma.</p>
+      </div>
+    </div>
+    <div>
+      <h3 id="float">Flotar objetos</h3>
+        <p>El tag float nos permite flotar (desplazar) objetos. Por ejemplo si queremos que aparezca una imagen y a la derecha un texto usaremos float: left; en la imagen. Algo recomendable es darle un margen a la imagen para que quede mejor</p>
+        <p><img id="imagenFlotadaIzquierda" src="img\google.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.</p>
+        <p>Tambien se puede hacer lo mismo pero a la derecha</p>
+        <p><img id="imagenFlotadaDerecha" src="img\google.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut nibh consectetur, tempus mauris vel, consectetur mauris. Quisque eu tortor id diam gravida imperdiet. Morbi in accumsan enim. Nunc ultrices ut velit sed pretium. Etiam augue ex, tristique condimentum molestie et, laoreet tincidunt mi. Donec congue urna at ipsum convallis sodales.</p>
+    </div>
+    <div>
+      <h3 id="iframes">Insertar Webs dentro de otras(iframe)</h3>
+        <p>Los iframes nos permiten introducir una pagina web dentro de otra. Su uso es sencillo, es similar  a las imagenes, tienen un src, una anchura y un altra las cuales se pueden configurar con una clase o un id. Para usarlo solo tenemos que poner la URL en la parte src.</p>
+        <p>Esta es la pagina web de HTML.</p>
+  </div>
+  <div>
+      <h5>Pagina web de HTML.</h5>
+      <iframe id="iframeprueba" src="HTML.html"></iframe>
+  </div>
 </div>
 </body>

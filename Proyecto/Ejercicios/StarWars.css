@@ -1,0 +1,55 @@
+body{
+    background-image: url(../img/fondo1.jpeg);
+    width: 1422px;
+    height: 921;
+}
+@font-face{
+     font-family: "titulo";
+    src: url("../ejercicio star wars/fuentes/Starjedi.ttf");
+}
+#titulo{
+    background-image: url(../img/fondonegroestrellas.jpg);
+    color: yellow;
+    text-align: center;
+     font-family: "titulo";
+    font-size: 35px;
+    border: 5px solid red;
+    width: 1339px;
+    height: 61px;
+}
+#titulo,p{
+    margin-top: 0px;
+}
+.texto{
+    color: white;
+    margin-top: 5px;
+    border: 5px solid red;
+    background-image: url(../img/magma.jpg);
+    width: 1339px;
+    
+}
+#izquierda{
+    margin-top: 7px;
+        
+    color : yellow;
+    border: 5px solid red;
+    width: 288px;
+    height: 461;
+    background-image: url(../img/fondonegroestrellas.jpg);
+    text-align: center;
+    font-family: sans-serif;
+}
+#derecha{
+    background-image: url(../img/magma.jpg);
+    border: 5px solid red;
+    color: white;
+    position: absolute;
+    
+}
+#tabla th,td{
+    border: 3px solid white;
+}
+
+#todo{
+    padding: 1%;
+}

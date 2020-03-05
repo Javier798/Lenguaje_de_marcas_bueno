@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <head>
   <title>Presentacion</title>
-  <style>
-    #myHeader{
-      color:red;
-      background-color: lightblue;
-      padding:7px
-    }
-    .header {color: blue;
-  padding: 5px}
-  </style>
+  <script src="JavaScript.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
 </head>
-<body>
-  <div id="menu01"><a href="./HTML.html" target="_blank">Parte de HTML.</a></div>
-  <div id="menu02"><a href="./Ej1.html" target="_blank">Ejercicio 1</a></div>
-  <div id="menu03"><a href="./CSS.html" target="_blank">Parte de CSS.</a></div>
+
+<body id="presentacionCSS">
   <h1 id= "myHeader"> PROYECTO LENGUAJE DE MARCAS </br> FCO. JAVIER MARÍN </h1>
   <hr></hr>
 
@@ -25,12 +17,19 @@ para no tener que introducirlos a manao y ademas tambien tube la suerte de poder
 A ser posible, me gustaria enfocarla mas al diseño 3D como por ejemplo poder programar los movimientos de un personaje en un videojuego, mas concretamente el LOL (League of Legends).
 Una de mis grandes metas seria poder diseñar desde cero un personaje, dibujarlo y darle forma etc. y poder programar sus movimientos.</pre>
 <h3 class="header">Enlaces</h3>
-<p>Este enlace lleva a la pagina de HTML.</p>
+<div id="listaEnlaces">
 
-<p>Este enlace lleva a la pagina de CSS</p>
 
-<p>Este enlace lleva al ejercicio 1</p>
-
-<p>Este enlace lleva al ejercicio 2</p>
-<a href="./Ejercicio 2.html" target="_blank">Ejercicio 2</a>
+<ol id="lista2">
+  <li><a href="./HTML.html">HTML</a></li>
+  <li><a href="./CSS.html">CSS</a></li>
+  <li><a href="#" onclick="despliegaLista()"> Ejercicios</a></li>
+    <ol id="listaDesplegable">
+      <li><a href="Ejercicios/Ej1.html" > Ejercicio 1</a></li>
+      <li><a href="Ejercicios/Ejercicio 2.html" > Ejercicio 2</a></li>
+    </ol>
+  <li>Trabajo extra.</li>
+</ol>
+</div>
 </body>
+<script id="script" language="JavaScript" type="text/javascript">alert("Acepte las coockies por favor, gracias.");</script>
