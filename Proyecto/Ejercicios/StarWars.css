@@ -1,5 +1,7 @@
 body{
     background-image: url(../img/fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1422px;
     height: 921;
 }
@@ -21,6 +23,7 @@ body{
     margin-top: 0px;
 }
 .texto{
+    
     color: white;
     margin-top: 5px;
     border: 5px solid red;
@@ -34,10 +37,17 @@ body{
     color : yellow;
     border: 5px solid red;
     width: 288px;
-    height: 461;
+    /*! height: 461; */
     background-image: url(../img/fondonegroestrellas.jpg);
     text-align: center;
     font-family: sans-serif;
+    float: left;
+    height: 472px;
+    margin-top: 7px;
+}
+
+#izquierda p{
+    font-size: 19px;
 }
 #derecha{
     background-image: url(../img/magma.jpg);
@@ -45,6 +55,13 @@ body{
     color: white;
     position: absolute;
     
+    /*! float: right; */
+    /*! right: 348px; */
+    margin-top: 7px;
+    height: 472px;
+    width: 999px;
+    margin-left: 340px;
+    margin-top: 8p;
 }
 #tabla th,td{
     border: 3px solid white;
@@ -52,4 +69,19 @@ body{
 
 #todo{
     padding: 1%;
+}
+#cola{
+    float: left;
+    margin-right: 56px;
+}
+#cola2{
+    /*! float: left; */
+    margin-left: 142px;
+    margin-top: 10px;
+}
+#abajo{
+    color: white;
+    border: 5px solid red;
+    margin-top: 520px;
+    width: 1340px;
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bocadillo.css">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div id="formulario">
+      <form id="form">
+        <label for="nombre">Nombre del bocadillo</label><br>
+        <input placeholder="Cigüeño" type="text" id="nombre" name="fname"><br><br>
+        <label> ¿Que tipo de pan desea?</label><br>
+        <input type="radio" id="panCrujiente" name="pan" value="panCrujiente">
+        <label for="panCrujiente">Pan Crujiente</label><br>
+        <input type="radio" id="panClasico" name="pan" value="panClasico">
+        <label for="panClasico">Pan Clasico</label><br>
+        <input type="radio" id="panRustico" name="pan" value="panClasico">
+        <label for="panRustico">Pan Rustico</label><br><br>
+        <label> ¿Qué ingredientes le desea añadir?</label><br>
+        <input type="checkbox" id="lechuga" name="lechuga" value="lechua">
+        <label for="lechuga"> Lechuga</label><br>
+        <input type="checkbox" id="tomate" name="tomate" value="tomate">
+        <label for="vehicle2"> Tomate</label><br>
+        <input type="checkbox" id="carne" name="carne" value="carne">
+        <label for="carne">Carne</label><br><br>
+        <label>Elija el tamaño del bocadillo.</label><br>
+        <input placeholder="Mediano" id="opciones" type="text" list="items">
+        <datalist id="items">
+          <option value="Grande">Grande</option>
+          <option value="Mediano">Mediano</option>
+          <option value="Pequeño">Pequeño</option>
+        </datalist>
+
+          <label id="fecha1" for="fecha">Introduzca la fecha de recogida.</label><br>
+          <input type="date" id="fecha" name="fecha"><br>
+          <label for="opinion">Describa brevemente la opinion sobre este lugar:</label><br>
+          <textarea id="opinion" rows="4" cols="50"></textarea><br>
+          <label for="email">Introduzca su correo electronico.</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="pass">Introduzca su contraseña.</label><br>
+          <input type="password" id="password" name="password"><br>
+      </form>
+    </div>
+  </body>
+</html>

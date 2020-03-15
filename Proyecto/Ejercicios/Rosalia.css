@@ -1,0 +1,209 @@
+#imageMasComentarios{
+width: 818px;
+height: 597px;
+position: absolute;
+top: 117px;
+left: 313px;
+}
+#instagram{
+    margin-left: 262px;
+
+}
+#barra {
+    margin left: 16px;
+}
+#buscador{
+    
+
+    position: absolute;
+    top: 12px;
+    right: 603px;
+
+
+}
+#comentario1{
+    position: absolute;
+    right: 279px;
+    top: 13px;
+
+}
+#comentario2{
+position: absolute;
+
+right: 279px;
+
+top: 92px;
+}
+#textoComentario{
+    position: absolute;
+
+top: -13px;
+
+left: 55px;
+}
+#textoComentario1{
+    position: absolute;
+
+top: -13px;
+
+left: 55px;
+}
+#texto{
+    position: absolute;
+
+right: -21px;
+
+top: 18px;
+}
+#texto1{
+    position: absolute;
+
+right: -22px;
+
+top: 18px;
+}
+#imgInsta{
+    
+    position: absolute;
+    left: 310px;
+}
+#fontInsta{
+    
+position: absolute;
+
+left: 253px;
+
+top: 6px;
+}
+#pInsta{
+    position: absolute;
+
+left: 293px;
+
+font-size: 28px;
+
+top: -24px;
+}
+#textoComentario-1{
+    
+    position: absolute;
+    right: -81px;
+    top: 1px;
+}
+#textoComentario-2{
+    
+    position: absolute;
+    right: -95px;
+    top: 23px;
+}
+#textoComentario1-2{
+    
+    position: absolute;
+    right: -189px;
+    top: 21px;
+}
+#textoComentario1-1{
+    
+    position: absolute;
+    right: -178px;
+    top: 0px;
+}
+#puntos{
+        position: absolute;
+    right: 17px;
+    top: 34px;
+}
+#Circulo{
+    
+    position: absolute;
+    /*! right: 13px; */
+    left: 604px;
+    top: 186px;
+}
+#mas{
+    
+    position: absolute;
+    left: 612px;
+    top: 195px;
+}
+#usuario{
+    
+    position: absolute;
+    right: 147px;
+    top: 325px;
+}#corazon{
+
+    position: absolute;
+    /*! right: 302px; */
+    bottom: 136px;
+    left: 497px;
+}
+#comentario{
+    
+    position: absolute;
+    right: 302px;
+    bottom: 137px;
+    left: 525px;
+}
+#avion{
+    
+    position: absolute;
+    right: 302px;
+    bottom: 136px;
+    left: 549px;
+}
+#guardar{
+    position: absolute;
+
+
+
+bottom: 136px;
+
+left: 771px;
+}
+#likes{
+    position: absolute;
+
+right: 221px;
+
+top: 456px;
+
+font-size: 13px;
+}
+#fecha{
+    position: absolute;
+
+right: 261px;
+
+bottom: 82px;
+
+font-size: 9px;
+
+color:
+#b6b9b8;
+}
+.azul{
+    color: aquamarine;
+}
+#sesion{
+    position: absolute;
+color:
+#b5b5b5;
+right: 105px;
+
+bottom: -5px;
+
+font-size: 14px;
+}
+#f1{
+    position: absolute;
+
+right: 221px;
+
+top: 126px;
+
+font-size: 13px;
+
+color:
+#abaeb1;
+}

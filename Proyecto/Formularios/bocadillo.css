@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/comida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nombre{
+    width: 228px;
+    height: 31px;
+    font-size: 20px;
+    padding: 8px;
+}
+#formulario{
+    position: absolute;
+    right: 37%;
+    top: 18%;
+
+}
+#form{
+    font-size: 38px;
+    color: black;
+}
+#opciones{
+    width: 228px;
+    height: 31px;
+    font-size: 20px;
+    padding: 8px;
+}
+#fecha{
+    position: absolute;
+
+right: -154%;
+
+top: -23%;
+
+width: 228px;
+
+height: 31px;
+
+font-size: 20px;
+}
+#fecha1{
+    position: absolute;
+
+right: -187%;
+
+top: -32%;
+}
+#email{
+    width: 228px;
+    height: 31px;
+    font-size: 20px;
+    padding: 8px;
+}
+#password{
+    width: 228px;
+    height: 31px;
+    font-size: 20px;
+    padding: 8px;
+}
