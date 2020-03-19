@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="bocadillo.css">
     <title>Formulario</title>
+    <script src="./tinymce/js/tinymce/tinymce.min.js"></script>
+    <script> tinymce.init({
+      selector:'#opinion'
+    });</script>
   </head>
   <body>
     <div id="formulario">
@@ -35,11 +39,16 @@
           <label id="fecha1" for="fecha">Introduzca la fecha de recogida.</label><br>
           <input type="date" id="fecha" name="fecha"><br>
           <label for="opinion">Describa brevemente la opinion sobre este lugar:</label><br>
-          <textarea id="opinion" rows="4" cols="50"></textarea><br>
-          <label for="email">Introduzca su correo electronico.</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label for="pass">Introduzca su contraseña.</label><br>
-          <input type="password" id="password" name="password"><br>
+          <textarea id="opinion" rows="3" cols="25"></textarea><br>
+          <div id="datos">
+            <label for="email">Introduzca su correo electronico.</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pass">Introduzca su contraseña.</label><br>
+            <input type="password" id="password" name="password"><br>
+            <label for="telefono">Introduzca su telefono.</label><br>
+            <input type="tel" id="tel" name="telefono" value="telefono">
+          </div>
+
       </form>
     </div>
   </body>

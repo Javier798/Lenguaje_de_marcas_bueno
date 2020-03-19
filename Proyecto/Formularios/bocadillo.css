@@ -4,56 +4,71 @@ body{
     background-size: cover;
 }
 #nombre{
-    width: 228px;
+    width: 308px;
     height: 31px;
-    font-size: 20px;
+    font-size: 24px;
     padding: 8px;
 }
 #formulario{
     position: absolute;
-    right: 37%;
+    right: 56%;
     top: 18%;
 
 }
 #form{
-    font-size: 38px;
+    font-size: 55px;
     color: black;
 }
 #opciones{
-    width: 228px;
+    width: 308px;
     height: 31px;
-    font-size: 20px;
+    font-size: 24px;
     padding: 8px;
 }
 #fecha{
     position: absolute;
 
-right: -154%;
+right: -169%;
 
-top: -23%;
+top: 6%;
 
-width: 228px;
+width: 308px;
 
 height: 31px;
 
-font-size: 20px;
+font-size: 24px;
 }
 #fecha1{
     position: absolute;
 
-right: -187%;
+right: -204%;
 
-top: -32%;
+top: -2%;
 }
 #email{
-    width: 228px;
+    width: 308px;
     height: 31px;
-    font-size: 20px;
+    font-size: 24px;
     padding: 8px;
 }
 #password{
-    width: 228px;
+    width: 308px;
     height: 31px;
-    font-size: 20px;
+    font-size: 24px;
+    padding: 8px;
+}
+#opinion{
+    font-size: 49px;
+}
+#datos{
+    
+    position: absolute;
+    right: -206%;
+    top: 12%;
+}
+#tel{
+    width: 308px;
+    height: 31px;
+    font-size: 24px;
     padding: 8px;
 }
