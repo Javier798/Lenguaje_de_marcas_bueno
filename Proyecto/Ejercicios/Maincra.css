@@ -1,0 +1,212 @@
+body{
+    
+    
+    background-image: url(../img/Maincra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@font-face{
+     font-family: "maincra";
+    src: url("../feuntes/1_MinecraftRegular1.otf");
+}
+
+#fondo{
+    background-color: #0000009e;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+}
+#volver{
+    background-image: url(../img/fondobotonminecra.png);
+    margin-left: 32%;
+    margin-right: 35%;
+    height: 55px;
+    width: 596px;
+    margin-top: 89px;
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    
+    
+    border: solid black 3px;
+}
+#volver:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#volverp{
+    margin-top: 8px;
+}
+#menu{
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    margin-top: 79px;
+    /*! border: black; */
+}
+#progreso{
+    background-image: url(../img/botonpeque%C3%B1o.png);
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    margin-left: 32%;
+    /*! margin-right: 35%; */
+    width: 289px;
+    height: 55px;
+    float: left;
+    margin-top: 14px;
+    border: solid black 3px;
+}
+#progreso:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#progresop{
+    margin-top: 10px;
+}
+#estadisticas{
+background-image: url(../img/botonpeque%C3%B1o.png);
+
+font-size: 28px;
+
+text-align: center;
+
+font-family: "maincra";
+
+color: white;
+
+margin-left: 17px;
+
+width: 283px;
+
+height: 55px;
+
+float: left;
+
+margin-top: 14px;
+border: solid black 3px;
+}
+#estadisticasp{
+    
+    margin-top: 10px;
+}
+#estadisticas:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#lan{
+    background-image: url(../img/fondobotonminecra.png);
+    margin-left: 32%;
+    margin-right: 35%;
+    height: 55px;
+    width: 596px;
+    margin-top: 14px;
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    border: solid black 3px;
+}
+#lanp{
+    
+    margin-top: 10px;
+}
+#lan:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#q{
+    
+    background-image: url(../img/botonpeque%C3%B1o.png);
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: #3dbc9f;
+    margin-left: 28%;
+    /*! margin-right: 35%; */
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-top: 14px;
+    border: solid black 3px;
+}
+#qp{
+    
+    margin-top: 10px;
+}
+#opcionesp{
+    margin-top: 10px;
+}
+#opciones:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#opciones{
+    
+    /*! float: left; */
+    background-image: url(../img/botonpeque%C3%B1o.png);
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    margin-left: 0.4%;
+    /*! margin-right: 35%; */
+    width: 289px;
+    height: 55px;
+    float: left;
+    margin-top: 14px;
+    border: solid black 3px;
+}
+#mods{
+    
+    background-image: url(../img/botonpeque%C3%B1o.png);
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    margin-left: 17px;
+    width: 283px;
+    height: 55px;
+    float: left;
+    margin-top: 14px;
+    border: solid black 3px;
+}
+#modsp{
+    
+    margin-top: 10px;
+}
+#mods:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}
+#guardar{
+    
+    background-image: url(../img/fondobotonminecra.png);
+    margin-left: 32%;
+    margin-right: 35%;
+    height: 55px;
+    width: 596px;
+    margin-top: 14px;
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    font-family: "maincra";
+    color: white;
+    border: solid black 3px;
+}
+#guardarp{
+    
+    margin-top: 10px;
+}
+#guardar:hover{
+    background-image: url(../img/minecrahover.png);
+    border: 0;
+}

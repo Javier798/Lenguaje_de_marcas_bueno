@@ -1,0 +1,113 @@
+#video{
+    width: 966px;
+    height: 770px;
+    margin-left: 24px;
+    margin-top: 24px;
+    float: left;
+}
+#youtube{
+    
+    height: 56px;
+    box-shadow: 0px 9px 10px grey; 
+}
+#menuBarras{
+    
+    margin-top: 22px;
+    margin-left: 27px;
+}
+#play{
+    color: red;
+    margin-left: 24px;
+}
+#lupa{
+    position: absolute;
+
+top: 22px;
+}
+#buscador{
+    height: 32px;
+
+width: 380px;
+
+margin-left: 380px;
+}
+#campanaymas{
+    
+    margin-left: 211px;
+}
+#siguiente{
+    
+    float: left;
+    margin-top: 29px;
+    margin-left: 34px;
+}
+#auto{
+    
+    color: gray;
+}
+#bola{
+    
+    position: absolute;
+    top: 104px;
+    right: 71px;
+}
+#azul{
+ color: aqua;   
+}
+#visitasysimbolos{
+    
+    color: gray;
+}
+#pulgarArriba{
+    margin-left: 260px;
+    border-bottom: solid grey 1px;
+}
+#likes{
+    box-shadow: 0px 9px 10px grey; 
+    height: 108px;
+    padding: 6px;
+}
+#pulgarAbajo{
+    border-bottom: solid grey 1px;
+}
+#tresPuntos{
+    
+    margin-bottom: 6px;
+}
+#suscriptores{
+    margin-top: 20px;
+}
+#letraFonsi{
+    
+}
+#fonsito{
+    float: left;
+}
+#gris{
+    color: grey;
+}
+#descripcion{
+    
+}
+#cancion1{
+    margin-left: 1015px;
+}
+#cancion2{
+    margin-left: 1015px;
+    margin-top: 33px;
+}
+#cancion3{
+    margin-left: 1015px;
+}
+#cancion4{
+    margin-left: 1015px;
+}
+#cancion5{
+    margin-left: 1012px;
+}
+#cancion6{
+    margin-left: 1015px;
+}
+#cancion7{
+    margin-left: 1015px;
+}
