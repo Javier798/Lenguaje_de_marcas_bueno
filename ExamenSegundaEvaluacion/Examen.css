@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+#titulo{
+    color:#ffb31a;
+    text-align: center;
+    font-family: Berlin Sans FB Demi;
+}
+#leroy{
+    height: 2018px;
+    width: 1438px;
+    
+}
+.titulo1{
+    color:#ffb31a;
+    font-family: Berlin Sans FB Demi;
+    font-size: 20px;
+}
+#contenidoPag1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.parrafos{
+    font-size: 18px;
+    color: white;
+    font-family: Arial Rounded MT Bold;
+}
+#editado{
+    color: #deffff;
+}
+#divMuchoContenido{
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    color: white;
+}
+#divgrande{
+    font-size: 18px;
+    color: white;
+    font-family: fantasy;
+}
+#sapn{
+    color: green;
+}
+#imagen{
+    width: 640px;
+    height: 373px;
+}
+#a{
+    color: red;
+}
+
+#tituloLink{
+    color: orange;
+}
+#tabla th,td{
+    color: orange;
+    border: 1px solid white;
+}
+#caption{
+    color: white;
+}
+#lista1{
+    color: green;
+}
+#div1{
+    background-color: skyblue;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 2714px;
+    left: 160px;
+}
+#div2{
+    background: green;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 2714px;
+}
+#div3{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    /*! margin-bottom: 520px; */
+    position: absolute;
+    top: 2750px;
+    left: 130px;
+}
+#divs div:hover{
+    z-index: 3;
+}
+#solapados{
+    color:whitesmoke;
+        
+    margin-top: 20px;
+}
+#formulario{
+    color: white;
+    float: left;
+    margin-top: 143px;
+    margin-left: -76px;
+    margin-left: 0px;
+}
+#boton{
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+}
+#boton:hover{
+    background-color: white;
+    color: red;
+}
+#cita{
+    color: white;
+}
